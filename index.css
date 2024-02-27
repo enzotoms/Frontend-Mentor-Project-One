@@ -1,0 +1,121 @@
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 600;
+}
+
+video,
+iframe,
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 2.8rem;
+    color: hsl(210, 10%, 33%);
+}
+
+p{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+#header-top{
+background-image: url('/images/bg-header-desktop.png');
+}
+
+.ios-button,
+.mac-button {
+padding: 1rem;
+padding-inline: 3rem;
+border-radius: 30px;
+font-weight: 600;
+color: white;
+border: 0;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.ios-button{
+background-color: hsl(171, 66%, 44%);
+}
+
+.mac-button{
+background-color: hsl(233, 100%, 69%);
+}
+
+#keep-track{
+    margin-top: 6rem;
+}
+
+#keep-track div{
+    text-align: center;
+    max-width: 750px;
+}
+
+#usage-guide{
+    display: flex;
+    gap: 7rem;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-inline: 1.5rem;
+}
+
+.usage-guide-items div{
+    margin-bottom: 2rem;
+}
+
+#access-clipboard{
+    margin-top: 8rem;
+}
+
+#partners{
+margin: 7rem 0;
+}
+
+#partners img{
+    width: 200px;
+}
+
+.instruction-content{
+    max-width: 750px;
+}
+
+footer{
+    background-color: hsl(167, 39%, 95%);
+    margin-top: 7rem;
+}
+
+footer li{
+    list-style: none;
+}
+
+.social-links {
+    font-size: 2rem;
+}
+
+@media(min-width: 640px){
+    #header-top{
+        background-image: url('/images/bg-header-desktop.png');
+    }
+
+}
+
+@media(min-width: 750px){
+    #usage-guide{
+      flex-direction: row;  
+      margin-left: -2rem;
+      align-items: center;
+    }
+
+    .usage-guide-items{
+        max-width: 420px;
+    }
+}
